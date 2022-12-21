@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:music_stats/widgets/home/reprodution_history_widget.dart';
 
-import '../widgets/bottom_bar_widget.dart';
 import '../widgets/home/current_playing_widget.dart';
 
 class HomePage extends StatelessWidget {
@@ -11,15 +11,7 @@ class HomePage extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          elevation: 0,
-          centerTitle: true,
-          backgroundColor: Theme.of(context).colorScheme.secondary,
-          title: Text(
-            "Visão Geral",
-            style: TextStyle(
-              color: Theme.of(context).primaryColor,
-            ),
-          ),
+          title: const Text("Home Page"),
           actions: <Widget>[
             Padding(
               padding: const EdgeInsets.only(right: 8),
@@ -31,12 +23,22 @@ class HomePage extends StatelessWidget {
           ],
         ),
 
-        bottomNavigationBar: const BottomBar(),
-
         body: SingleChildScrollView(
           child: Column(
             children: <Widget>[
               currentPlaying(context),
+
+              const SizedBox(height: 20),
+
+              const Text(
+                "Histórico de reprodução",
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 15),
+              ReprodutionHistory(),
             ],
           ),
         ),

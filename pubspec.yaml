@@ -37,7 +37,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
-  google_nav_bar:
+  bottom_navy_bar: ^6.0.0
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +65,10 @@ flutter:
 
   assets:
       - assets/images/the-new-abnormal-the-strokes-album-cover.jpg
+      - assets/images/Ants_from_Up_There_-_Black_Country,_New_Road.jpg
+      - assets/images/Bruno_Mars-24K_Magic.jpg
+      - assets/images/how-can-i-pretend.jpeg
+      - assets/images/tourist-history.jpg
 
   # assets:
   #   - images/a_dot_burr.jpeg

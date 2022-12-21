@@ -8,6 +8,8 @@ import 'package:music_stats/pages/stats_page.dart';
 
 int index = 0;
 
+PageController pageController = PageController(initialPage: 0);
+
 const List<Widget> pages = [
   HomePage(),
   StatsPage(),

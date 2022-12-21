@@ -10,9 +10,9 @@ Widget currentPlaying(BuildContext context) {
       width: double.infinity,
       height: 160,
       child: Container(
-        decoration: BoxDecoration(
-          color: Colors.grey.shade400,
-          borderRadius: const BorderRadius.all(Radius.circular(10))
+        decoration: const BoxDecoration(
+          //color: Colors.grey.shade400,
+          borderRadius: BorderRadius.all(Radius.circular(10))
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,

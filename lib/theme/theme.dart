@@ -27,10 +27,24 @@ ThemeData lightTheme() {
       secondary: orangeWeb,
       brightness: Brightness.light
     ),
-    scaffoldBackgroundColor: greyPlatinum,
+    scaffoldBackgroundColor: greyPlatinum.withOpacity(0.8),
+    backgroundColor: greyPlatinum,
+    textTheme: const TextTheme(
+      headline1: TextStyle(color: blueOxford),
+      subtitle1: TextStyle(color: blueOxford),
+      bodyText1: TextStyle(color: blueOxford),
+    ),
 
     appBarTheme: const AppBarTheme(
       backgroundColor: orangeWeb,
+      centerTitle: true,
+      elevation: 0,
+      shadowColor: Colors.transparent,
+      titleTextStyle: TextStyle(
+        color: blueOxford,
+        fontSize: 22,
+        fontWeight: FontWeight.w700,
+      ),
     )
   );
 }
