@@ -40,6 +40,9 @@ ThemeData lightTheme() {
       centerTitle: true,
       elevation: 0,
       shadowColor: Colors.transparent,
+      iconTheme: IconThemeData(
+        color: blueOxford,
+      ),
       titleTextStyle: TextStyle(
         color: blueOxford,
         fontSize: 22,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:music_stats/widgets/home/reprodution_history_widget.dart';
+import 'package:music_stats/widgets/home/reprodution_history/reprodution_history_widget.dart';
 
 import '../widgets/home/current_playing_widget.dart';
 
@@ -37,8 +37,8 @@ class HomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              const SizedBox(height: 15),
-              ReprodutionHistory(),
+              const SizedBox(height: 10),
+              const ReprodutionHistory(),
             ],
           ),
         ),
