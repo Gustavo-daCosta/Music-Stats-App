@@ -6,7 +6,7 @@ import 'package:music_stats/pages/profile_page.dart';
 import 'package:music_stats/pages/search_page.dart';
 import 'package:music_stats/pages/stats_page.dart';
 
-final List<Map> musics = [
+final List<Map<String, String>> musics = [
   {
     "title": "Basketball Shoes",
     "artist": "Black Country, New Road",
