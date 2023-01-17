@@ -27,9 +27,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               currentPlaying(context),
-
               const SizedBox(height: 20),
-
               const Text(
                 "Histórico de reprodução",
                 style: TextStyle(

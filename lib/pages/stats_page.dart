@@ -52,6 +52,10 @@ class StatsPage extends StatelessWidget {
 }
 
 class StatsGridView extends StatelessWidget {
+
+  // variables to change when axis count change
+  final int crossAxisCount = 3;
+
   final String time;
   static List<Map> musics = globals.musics;
 
@@ -62,13 +66,19 @@ class StatsGridView extends StatelessWidget {
     musics.shuffle();
     return GridView.builder(
       padding: const EdgeInsets.all(8),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         mainAxisSpacing: 10,
         crossAxisSpacing: 10,
-        crossAxisCount: 3,
+        crossAxisCount: crossAxisCount,
+        //childAspectRatio: 0.5,
+        mainAxisExtent: 152,
       ),
       itemCount: musics.length,
-      itemBuilder: (context, index) => CardItem(musicData: musics[index], index: index),
+      shrinkWrap: true,
+      itemBuilder: (context, index) => CardItem(
+        musicData: musics[index],
+        index: index,
+      ),
     );
   }
 }

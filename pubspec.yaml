@@ -39,6 +39,7 @@ dependencies:
 
   bottom_navy_bar: ^6.0.0
   cached_network_image:
+  carousel_slider:
 
 dev_dependencies:
   flutter_test:
@@ -65,25 +66,35 @@ flutter:
   # To add assets to your application, add an assets section, like this:
 
   assets:
-      - assets/images/the-new-abnormal-the-strokes-album-cover.jpg
-      - assets/images/Ants_from_Up_There_-_Black_Country,_New_Road.jpg
-      - assets/images/Bruno_Mars-24K_Magic.jpg
-      - assets/images/how-can-i-pretend.jpeg
-      - assets/images/tourist-history.jpg
-      - assets/images/blond.jpg
-      - assets/images/flower-boy.jpg
-      - assets/images/igor.jpg
-      - assets/images/space-song.jpg
+      - assets/music-covers/the-new-abnormal-the-strokes-album-cover.jpg
+      - assets/music-covers/Ants_from_Up_There_-_Black_Country,_New_Road.jpg
+      - assets/music-covers/Bruno_Mars-24K_Magic.jpg
+      - assets/music-covers/how-can-i-pretend.jpeg
+      - assets/music-covers/tourist-history.jpg
+      - assets/music-covers/blond.jpg
+      - assets/music-covers/flower-boy.jpg
+      - assets/music-covers/igor.jpg
+      - assets/music-covers/space-song.jpg
+      - assets/pictures/snorlax.png
+      - assets/icons/spotify-icon.png
+      - assets/artists/beach-house.png
+      - assets/artists/bruno-mars.png
+      - assets/artists/frank-ocean.png
+      - assets/artists/the-strokes.png
+      - assets/artists/two-door-cinema-club.png
+      - assets/artists/tyler-the-creator.png
+      - assets/artists/wasia-project.png
+      - assets/artists/black-country-new-road.png
 
   # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  #   - music-covers/a_dot_burr.jpeg
+  #   - music-covers/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
+  # https://flutter.dev/assets-and-music-covers/#resolution-aware
 
   # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
+  # https://flutter.dev/assets-and-music-covers/#from-packages
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a

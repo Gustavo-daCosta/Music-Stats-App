@@ -42,7 +42,7 @@ Widget currentPlaying(BuildContext context) {
                     padding: const EdgeInsets.all(8),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(10),
-                      child: Image.asset("assets/images/the-new-abnormal-the-strokes-album-cover.jpg")
+                      child: Image.asset("assets/music-covers/the-new-abnormal-the-strokes-album-cover.jpg")
                     ),
                   ),
                 ),

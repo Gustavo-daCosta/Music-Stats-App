@@ -63,3 +63,10 @@ ThemeData darkTheme() {
     scaffoldBackgroundColor: black,
   );
 }
+
+class CustomStyles {
+  TextStyle titleStyle = const TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+  );
+}
