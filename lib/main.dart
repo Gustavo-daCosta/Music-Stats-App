@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music_stats/pages/page_view.dart';
 
-//import 'global/globals.dart' as globals;
 import 'theme/theme.dart';
 
 void main() => runApp(const MusicStatsApp());

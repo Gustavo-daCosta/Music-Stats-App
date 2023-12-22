@@ -40,6 +40,9 @@ dependencies:
   bottom_navy_bar: ^6.0.0
   cached_network_image:
   carousel_slider:
+  flutter_dotenv:
+  logger:
+  spotify_sdk:
 
 dev_dependencies:
   flutter_test:
